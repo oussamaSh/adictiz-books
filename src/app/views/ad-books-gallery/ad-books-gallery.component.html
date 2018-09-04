@@ -1,0 +1,26 @@
+<div class="barC">
+  <div style="margin-top: 7px"><span class="bgBarC">Liste des livres</span></div>
+</div>
+<app-ad-search-books [customBookFilter]="customBookFilter"></app-ad-search-books>
+<div class="col-md-12">
+  <div class="card-deck">
+    <div class="booksWrapper">
+      <div class="card h-100" *ngFor="let book of (allBooks.items | booksPipe:customBookFilter.title | booksPipe:customBookFilter.language)">
+        <img class="card-img-top" src="{{book.volumeInfo.imageLinks.thumbnail}}" width="120px" height="220px" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{(book.volumeInfo.title.length>34)?(book.volumeInfo.title | slice:0:34)+'...':(book.volumeInfo.title)}}</h5>
+          <span style="color: #0079ac">Publisher: </span><span>{{book.volumeInfo.publisher}}</span>
+          <p class="card-text" *ngIf="book.volumeInfo.description==undefined">Ce livre ne contient aucune description</p>
+          <p class="card-text" *ngIf="book.volumeInfo.description!=undefined">{{(book.volumeInfo.description.length>110)?(book.volumeInfo.description
+            | slice:0:110)+'...':(book.volumeInfo.description)}}</p>
+          <p *ngIf="book.volumeInfo.language === 'en'">Language: <span class="badge badge-primary">English</span></p>
+          <p *ngIf="book.volumeInfo.language === 'fr'">Language: <span class="badge badge-primary">French</span></p>
+          <p *ngIf="book.volumeInfo.language === 'ar'">Language: <span class="badge badge-primary">Arabic</span></p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><a href="">Détails</a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
