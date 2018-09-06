@@ -1,0 +1,19 @@
+{
+    "title": "Lists des livres",
+    "Publisher": "Editeur",
+    "Author": "Auteur",
+    "Language": "Langue",
+    "Arabic": "Arabe",
+    "French": "Français",
+    "English": "Anglais",
+    "NoDescription": "Aucune description trouvée",
+    "Unknown": "Inconnue",
+    "searchInput":"Recherche par Titre, Editeur ou Auteur",
+    "moreFilters": "Plus de filtres",
+    "hide": "",
+    "Filters": "Filtres",
+    "Category": "Categorie",
+    "Details": "Détails du livre",
+    "Close": "Fermer",
+    "NoData": "Aucune information"
+}

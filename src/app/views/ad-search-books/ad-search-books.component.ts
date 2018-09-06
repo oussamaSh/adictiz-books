@@ -9,7 +9,7 @@ export class AdSearchBooksComponent implements OnInit {
 
   constructor() { }
   @Input() allBooks: any[] = [];
-  @Input() customBookFilter: any = { language: '', title: ''};
+  @Input() customBookFilter: any = { authors: '', title: '', categories: '', language: ''};
 
   ngOnInit() {
   }

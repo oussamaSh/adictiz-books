@@ -1,3 +1,4 @@
+import { async } from '@angular/core/testing';
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
@@ -6,35 +7,29 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class BooksPipe implements PipeTransform {
 
   transform(allBooks: any, searchedTerm: any): any {
-    if (searchedTerm === undefined || searchedTerm === '') {
-      return allBooks;
-    }
+    if (searchedTerm === undefined || searchedTerm === '') { return allBooks; }
+
+
+
     return allBooks.filter(function (book) {
-      return book.volumeInfo.title.toLowerCase().includes(searchedTerm.toLowerCase());
+      if (book.volumeInfo.authors !== undefined && book.volumeInfo.publisher !== undefined) {
+        let authors: any[] = [];
+        authors = book.volumeInfo.authors;
+        for (let index = 0; index < authors.length; index++) {
+          return book.volumeInfo.title.toLowerCase().includes(searchedTerm.toLowerCase()) ||
+            book.volumeInfo.categories == searchedTerm ||
+            authors[index].toLowerCase().includes(searchedTerm.toLowerCase()) ||
+            book.volumeInfo.publisher.toLowerCase().includes(searchedTerm.toLowerCase());
+
+        }
+      } else {
+          return book.volumeInfo.title.toLowerCase().includes(searchedTerm.toLowerCase()) ||
+            book.volumeInfo.categories == searchedTerm;
+      }
+
+
+
     });
   }
-  /*transform(allBooks: any, title: any, language: any): any {
-    if (title === undefined) { return 0; }
-    let filteredBooks: any = [];
-    // Filter each
-    if (title) {
-      filteredBooks = allBooks.filter(function (book) {
-        return book.volumeInfo.title.toLowerCase().includes(title.toLowerCase());
-      });
-    }
-    if (language) {
-      console.log("departure city", language);
-      filteredBooks = allBooks.filter(function (book) {
-        return book.volumeInfo.language.toLowerCase().includes(language.toLowerCase());
-      });
-    }
-    if (language && title) {
-      console.log("departure city", language);
-      filteredBooks = allBooks.find(book => book.volumeInfo.language.toLowerCase().includes(language));
-
-
-    console.log("filtered", filteredBooks);
-    return filteredBooks;
-  }
-*/
 }
+

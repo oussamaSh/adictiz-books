@@ -1,3 +1,47 @@
-<p>
-  ad-popup-details works!
-</p>
+<div class="modal-header">
+    <h4 class="modal-title">{{ 'Details' | translate:Details }}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+      <div class="rowDetails">
+          <div>
+              <img *ngIf="bookById.volumeInfo.imageLinks!==undefined" src="{{bookById.volumeInfo.imageLinks.thumbnail}}" width="200px" height="300px" alt="thumbnail">
+              <img *ngIf="bookById.volumeInfo.imageLinks===undefined" src="" width="200px" height="300px" alt="no-thumbnail">
+            </div>
+          <div class="bookInfos">
+              <div class="align-baseline">
+              <p class="card-text">
+                 <strong>{{ 'Author' | translate:Author }}: </strong>
+                  <span *ngIf="bookById.volumeInfo.authors==undefined">{{ 'NoData' | translate:NoData }}</span>
+                  <span *ngIf="bookById.volumeInfo.authors!==undefined">{{bookById.volumeInfo.authors}}</span>
+              </p>
+              <p>
+                  <strong>{{ 'Publisher' | translate:Publisher }}: </strong>
+                  <span *ngIf="bookById.volumeInfo.publisher==undefined">{{ 'NoData' | translate:NoData }}</span>
+                  <span *ngIf="bookById.volumeInfo.publisher!==undefined">{{bookById.volumeInfo.publisher}}</span>
+              </p>
+              <p> <strong>{{ 'Date' | translate:Date }}: </strong>
+                  <span *ngIf="bookById.volumeInfo.publishedDate==undefined">{{ 'NoData' | translate:NoData }}</span>
+                  <span *ngIf="bookById.volumeInfo.publishedDate!==undefined">{{bookById.volumeInfo.publishedDate}}</span>
+              </p>
+              <p> <strong>{{ 'Category' | translate:Category }}: </strong>
+                  <span *ngIf="bookById.volumeInfo.categories==undefined">{{ 'NoData' | translate:NoData }}</span>
+                  <span *ngIf="bookById.volumeInfo.categories!==undefined">{{bookById.volumeInfo.categories}}</span>
+              </p>
+              <p> <strong>{{ 'Language' | translate:Language }}: </strong>
+                <span *ngIf="bookById.volumeInfo.language==undefined">{{ 'NoData' | translate:NoData }}</span>
+                <span *ngIf="bookById.volumeInfo.language!==undefined">{{bookById.volumeInfo.language}}</span>
+            </p>
+              <p> <strong>Link: </strong>
+                  <span *ngIf="bookById.accessInfo.webReaderLink==undefined">{{ 'NoData' | translate:NoData }}</span>
+                  <span *ngIf="bookById.accessInfo.webReaderLink!==undefined"><a href="{{bookById.accessInfo.webReaderLink}}">Read</a></span>
+              </p>
+            </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">{{ 'Close' | translate:Close }}</button>
+  </div>

@@ -1,3 +1,4 @@
+import { BooksData } from './../../models/BooksData';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
@@ -10,8 +11,8 @@ export class BooksService {
 
   constructor(public http: HttpClient) { }
 
-  getAllBooks(): Observable<Object[]> {
-    return this.http.get<Object[]>(Globals.URL).pipe();
+  getAllBooks(): Observable<BooksData> {
+    return this.http.get<BooksData>(Globals.URL).pipe();
   }
 
 }

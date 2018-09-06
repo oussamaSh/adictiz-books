@@ -1,0 +1,683 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 439,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "BGAo2ruMcbIC",
+   "etag": "2Cuw5crIuIo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/BGAo2ruMcbIC",
+   "volumeInfo": {
+    "title": "Toto l'insoumis",
+    "publisher": "Editions Publibook",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9782748345452"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2748345452"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.0.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=BGAo2ruMcbIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=BGAo2ruMcbIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.com/books?id=BGAo2ruMcbIC&printsec=frontcover&dq=toto&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=BGAo2ruMcbIC&dq=toto&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Toto_l_insoumis.html?hl=&id=BGAo2ruMcbIC"
+   },
+   "saleInfo": {
+    "country": "TN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "TN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=BGAo2ruMcbIC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "pX-avKC0808C",
+   "etag": "1SqdvTK1p1w",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/pX-avKC0808C",
+   "volumeInfo": {
+    "title": "Toto, I Don't Think We're in Golders Green Anymore!",
+    "subtitle": "Five Butt-Clenching-Nail-Biting-Hysteria-Inducing Years in Israel",
+    "authors": [
+     "Andrew Reid"
+    ],
+    "publisher": "AuthorHouse",
+    "publishedDate": "2006-12-21",
+    "description": "If you are considering a new life in Israel then Toto, I Dont Think We Are in Golders Green Anymore is essential reading. This is an often humorous account about becoming a Jew and moving to Israel as a new immigrant. It is also the story of a relationship that didn't quite work out and about being gay in Israel. This book will give you a feeling for what it is really like to live in Israel; experience the sights, smells, tastes, the blood-vessel-popping frustration and the exhilaration of Aliyah. Meet a host of lovable characters such as cockroach-chomping kittens, snarling nudists, and ferocious rubber-stamp-wielding clerks with pig-stunning BO. The book explores Israeli norms and attitudes and describes places, politics and everyday experiences through English eyes.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1467010472"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781467010474"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 264,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.5.6.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=pX-avKC0808C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=pX-avKC0808C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=pX-avKC0808C&printsec=frontcover&dq=toto&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=pX-avKC0808C&dq=toto&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Toto_I_Don_t_Think_We_re_in_Golders_Gree.html?hl=&id=pX-avKC0808C"
+   },
+   "saleInfo": {
+    "country": "TN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "TN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Toto_I_Don_t_Think_We_re_in_Golders_Gree-sample-epub.acsm?id=pX-avKC0808C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Toto_I_Don_t_Think_We_re_in_Golders_Gree-sample-pdf.acsm?id=pX-avKC0808C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=pX-avKC0808C&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This is an often humorous account about becoming a Jew and moving to Israel as a new immigrant. It is also the story of a relationship that didn&#39;t quite work out and about being gay in Israel."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "AT0_NwAACAAJ",
+   "etag": "LHCI5QKMMFs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/AT0_NwAACAAJ",
+   "volumeInfo": {
+    "title": "Toto!",
+    "subtitle": "The Wonderful Adventure. 4",
+    "authors": [
+     "Yuko Osada"
+    ],
+    "publisher": "Del Rey",
+    "publishedDate": "2009",
+    "description": "Kakashi and his dog, Toto, leave their island home with the goal of traveling around the world, and during the journey they encounter dangerous people and have unexpected adventures.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0345506634"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780345506634"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 194,
+    "printType": "BOOK",
+    "categories": [
+     "Comics & Graphic Novels"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "comicsContent": true,
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=AT0_NwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=AT0_NwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=AT0_NwAACAAJ&dq=toto&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=AT0_NwAACAAJ&dq=toto&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Toto.html?hl=&id=AT0_NwAACAAJ"
+   },
+   "saleInfo": {
+    "country": "TN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "TN",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=AT0_NwAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Kakashi and his dog, Toto, leave their island home with the goal of traveling around the world, and during the journey they encounter dangerous people and have unexpected adventures."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "bN5eAAAAcAAJ",
+   "etag": "AGZ1749nqqw",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/bN5eAAAAcAAJ",
+   "volumeInfo": {
+    "title": "PSALMODIA HARMONICA, SIVE PSALMI VESPERTINI NUMERO VIGINTI PRO TOTO ANNO CONSUETI, ARIOSE ET PER FUGAS DUPLICIS SUBJECTI STYLO NOVISSIMO DEDUCTI, UBI HABENTUR ETIAM DUPLICES VESPERAE INTEGRAE, à IV. Vocibus, II. Violinis necessariis, II. Clarinis vel Lituis ad Dixit & Magnificat ad libitum, cum Organo. ... Authore P. OSWALDO ... OPUS I. ... Cum Licentia Superiorum",
+    "publishedDate": "1733",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "BSB:BSB11131321"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.1.0.full.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=bN5eAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=bN5eAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "ar",
+    "previewLink": "http://books.google.com/books?id=bN5eAAAAcAAJ&pg=PP258&dq=toto&hl=&cd=4&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=bN5eAAAAcAAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-bN5eAAAAcAAJ"
+   },
+   "saleInfo": {
+    "country": "TN",
+    "saleability": "FREE",
+    "isEbook": true,
+    "buyLink": "https://play.google.com/store/books/details?id=bN5eAAAAcAAJ&rdid=book-bN5eAAAAcAAJ&rdot=1&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "TN",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": true,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=bN5eAAAAcAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "ا عة ره مسيحIIZE&quot;ل، IOSALMI VESIDERTINI NU MER O VIGINTI و PRo \u003cb\u003eToTo\u003c/b\u003e ANNo \u003cbr\u003e\nCo NSUIETI ARIOSE ET P ER FU GAS DU PL I CIS SUB JECTI و STYL O NO V \u003cbr\u003e\nIS S I MO DE DU CT I U B I H A B E IN TUR BTI AM و HD UIP LIC E S V ESP&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "r3WgPSzVeN8C",
+   "etag": "cw7dg51jZEI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/r3WgPSzVeN8C",
+   "volumeInfo": {
+    "title": "Smile for Toto",
+    "authors": [
+     "Jill Barnes",
+     "Ken Asuka"
+    ],
+    "publisher": "Garrett Educational Corp",
+    "publishedDate": "1990-07-01",
+    "description": "Toto the squirrel pretends to be a photographer for the other animals.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0944483879"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780944483879"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 32,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=r3WgPSzVeN8C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=r3WgPSzVeN8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=r3WgPSzVeN8C&q=toto&dq=toto&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=r3WgPSzVeN8C&dq=toto&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Smile_for_Toto.html?hl=&id=r3WgPSzVeN8C"
+   },
+   "saleInfo": {
+    "country": "TN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "TN",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=r3WgPSzVeN8C&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Toto the squirrel pretends to be a photographer for the other animals."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "0hSBUMVfju8C",
+   "etag": "dmcnADQxXdY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/0hSBUMVfju8C",
+   "volumeInfo": {
+    "title": "Toto in Candy Land of Oz",
+    "authors": [
+     "Roger S. Baum"
+    ],
+    "publisher": "The Overmountain Press",
+    "publishedDate": "2002-02-01",
+    "description": "Dorothy and Toto unknowingly break a law of Candy Land and are taken to see the Giant Royal Marshmallow.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1570722242"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781570722240"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 32,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=0hSBUMVfju8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=0hSBUMVfju8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=0hSBUMVfju8C&printsec=frontcover&dq=toto&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=0hSBUMVfju8C&dq=toto&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Toto_in_Candy_Land_of_Oz.html?hl=&id=0hSBUMVfju8C"
+   },
+   "saleInfo": {
+    "country": "TN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "TN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=0hSBUMVfju8C&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Dorothy and Toto unknowingly break a law of Candy Land and are taken to see the Giant Royal Marshmallow."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "rLzvAAAAMAAJ",
+   "etag": "UQvoQChoYp4",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/rLzvAAAAMAAJ",
+   "volumeInfo": {
+    "title": "Le château à Toto",
+    "subtitle": "opéra-bouffe en trois actes",
+    "authors": [
+     "Henri Meilhac",
+     "Ludovic Halévy"
+    ],
+    "publishedDate": "1874",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "WISC:89015270101"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 120,
+    "printType": "BOOK",
+    "categories": [
+     "Operas"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.0.0.full.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=rLzvAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=rLzvAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.com/books?id=rLzvAAAAMAAJ&pg=PP1&dq=toto&hl=&cd=7&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=rLzvAAAAMAAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-rLzvAAAAMAAJ"
+   },
+   "saleInfo": {
+    "country": "TN",
+    "saleability": "FREE",
+    "isEbook": true,
+    "buyLink": "https://play.google.com/store/books/details?id=rLzvAAAAMAAJ&rdid=book-rLzvAAAAMAAJ&rdot=1&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "TN",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": true,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "downloadLink": "http://books.google.com/books/download/Le_ch%C3%A2teau_%C3%A0_Toto.pdf?id=rLzvAAAAMAAJ&hl=&output=pdf&sig=ACfU3U0_fvFbxXIt_90Mc43j7OeNRfHHsg&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=rLzvAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "z-tLAAAAYAAJ",
+   "etag": "krx9UF5R9FY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/z-tLAAAAYAAJ",
+   "volumeInfo": {
+    "title": "Toto, the Timid Turtle",
+    "authors": [
+     "Howard Goldsmith",
+     "Shirley Chan"
+    ],
+    "publishedDate": "1980-01-01",
+    "description": "A timid turtle learns he can have fun outside his shell as well as inside.",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "UVA:X000606339"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 30,
+    "printType": "BOOK",
+    "categories": [
+     "Assertiveness (Psychology)"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.1.0.preview.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=z-tLAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=z-tLAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=z-tLAAAAYAAJ&q=toto&dq=toto&hl=&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=z-tLAAAAYAAJ&dq=toto&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Toto_the_Timid_Turtle.html?hl=&id=z-tLAAAAYAAJ"
+   },
+   "saleInfo": {
+    "country": "TN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "TN",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=z-tLAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "A timid turtle learns he can have fun outside his shell as well as inside."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "hSPXCwAAQBAJ",
+   "etag": "28LNorqDAHU",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/hSPXCwAAQBAJ",
+   "volumeInfo": {
+    "title": "Toto: The Dog-Gone Amazing Story of the Wizard of Oz",
+    "authors": [
+     "Michael Morpurgo"
+    ],
+    "publisher": "HarperCollins UK",
+    "publishedDate": "2017-09-07",
+    "description": "From master storyteller MICHAEL MORPURGO, and illustrated in stunning colour by the award-winning EMMA CHICHESTER CLARK, comes a surprising, charming and uplifting twist on The Wizard of Oz, told by a very special and unforgettable character: Dorothy’s pet dog, Toto. A perfect, collectible gift for all children (and children at heart).",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780008134617"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0008134618"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 284,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=hSPXCwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=hSPXCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=hSPXCwAAQBAJ&dq=toto&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=hSPXCwAAQBAJ&dq=toto&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Toto_The_Dog_Gone_Amazing_Story_of_the_W.html?hl=&id=hSPXCwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "TN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "TN",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=hSPXCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "From master storyteller MICHAEL MORPURGO, and illustrated in stunning colour by the award-winning EMMA CHICHESTER CLARK, comes a surprising, charming and uplifting twist on The Wizard of Oz, told by a very special and unforgettable ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "sscTDLRhRtYC",
+   "etag": "cc18q4WV664",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/sscTDLRhRtYC",
+   "volumeInfo": {
+    "title": "500 blagues spécial Toto et enfants",
+    "authors": [
+     "Divers auteurs"
+    ],
+    "publisher": "Editions Asap",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9782359320473"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2359320475"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.1.1.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=sscTDLRhRtYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=sscTDLRhRtYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.com/books?id=sscTDLRhRtYC&pg=PT8&dq=toto&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=sscTDLRhRtYC&dq=toto&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/500_blagues_sp%C3%A9cial_Toto_et_enfants.html?hl=&id=sscTDLRhRtYC"
+   },
+   "saleInfo": {
+    "country": "TN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "TN",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=sscTDLRhRtYC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "\u003cb\u003eToto\u003c/b\u003e a du mal à comprendre l&#39;arithmétique. La maîtresse essaiede lui faire \u003cbr\u003e\ncomprendre grâce à des exemples : – \u003cb\u003eToto\u003c/b\u003e, si tu plonges la main dans ta poche \u003cbr\u003e\ndedroiteetquetu trouves une pièce de 1 euro, puis si tu plonges ta main gauche \u003cbr\u003e\ndans&nbsp;..."
+   }
+  }
+ ]
+}

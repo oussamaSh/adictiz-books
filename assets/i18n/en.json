@@ -1,0 +1,19 @@
+{
+    "title": "List of books",
+    "Publisher": "Publisher",
+    "Author": "Author",
+    "Language": "Language",
+    "Arabic": "Arabic",
+    "French": "French",
+    "English": "English",
+    "NoDescription": "No description found",
+    "Unknown": "Unknown",
+    "searchInput":"Search book by Title, Publisher or Author",
+    "moreFilters": "More Filters",
+    "hide": "Hide",
+    "Filters": "Filters",
+    "Category": "Category",
+    "Details": "Book Details",
+    "Close": "Close",
+    "NoData": "No Data"
+}
