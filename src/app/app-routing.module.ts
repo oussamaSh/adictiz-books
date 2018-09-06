@@ -2,7 +2,15 @@ import { BooksMainComponent } from './views/books-main/books-main.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [{
+const routes: Routes = [
+  {
+    path: '',
+    component: BooksMainComponent,
+    data: {
+      title: 'Adictiz Books'
+    }
+  },
+  {
   path: 'home',
   component: BooksMainComponent,
   data: {

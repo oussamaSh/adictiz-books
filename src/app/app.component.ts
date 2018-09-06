@@ -7,7 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'adictiz-books';
+  title = 'Adictiz books web application';
   constructor(private translate: TranslateService) {
     translate.setDefaultLang('en');
   }
