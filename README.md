@@ -1,6 +1,6 @@
 # AdictizBooks
 
-Petite Applications 'Gallerie de livres'.  
+Petite Application web 'Gallerie de livres'.  
 
 ## Guide d'installation/exécution
 
